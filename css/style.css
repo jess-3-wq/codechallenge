@@ -1,0 +1,42 @@
+h1{
+color: black;
+}
+body{
+    margin: 20,20;
+    padding: 20,20;
+   
+}
+/* #ramen-detail{
+align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding-left: 20;
+ padding-right: 40;
+ margin-top: 50;
+ margin-bottom: 50;
+} */
+
+#ramen-deatil, img {
+    width: 200px;
+    height: 200px;
+    display: end;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50%;
+}
+.container{
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+#ramen-new{
+    align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 20;
+ border: 20;
+ 
+}
