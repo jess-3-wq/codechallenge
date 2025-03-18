@@ -12,32 +12,35 @@
    
         <div class="container">
             <h1>Ramen Dishes</h1>
-
-            <div id="ramen-menu"></div>
-            <div id="ramen-detail"> <img src="image/miso.jpg" alt="Ramen Image">
-                                    <img src="image/shoyu.jpg" alt="Dish">
-                                    <img src="image/Tonkotsu.jpg" alt="Food image">
-                                    <img src="image/jesse.jpg" alt="Ulala">
-                                    <img src="image/shawo.jpg" alt="daaamnn">
-            <h2 id="ramen-detail-name"></h2>
-            <h3 id="ramen-detail-restaurant"></h3>
-
-            <p id="rating-display"></p><p id="comment-display"></p>
-            </div>
-        </div>
+   <main>
     
+            <div id="ramen-menu" class="menu-container"></div>
+            
+            <div id="ramen-detail"> 
+                <img id="ramen-img" src="" alt="Select a ramen">
+            
+                <h2 id="ramen-name">Select a Ramen</h2>
+                <h3 id="ramen-restaurant"></h3>
+                <p id="ramen-rating"></p>
+                <p id="ramen-comment"></p>   
+            </div>               
+           
+            </div>
+           
+        </div>
+        <div id="content">
+
         <form id="ramen-new">
+            <button type="create">Add new Ramen</button>
         <input type="text" id="name" placeholder="Ramen Name" required>
-        
-        <input type="text" id="new-restaurant" placeholder="Restaurant" required>
-
-        <input type="text" id="new-rating" placeholder="Rating (1-5)" min="1" max="5" required>
-        
-        <textarea  id="new-comment" placeholder="Comment"></textarea>
-        
-        <input type="file" id="new-image" accept="image/shoyu.jpg"required>
-
-        <button type="submit">Add Ramen</button>
+        <input type="text" id="restaurant" placeholder="Restaurant" required>
+        <input type="text" id="rating" placeholder="Rating" min="1" max="5" required>
+        <input id="comment" placeholder="Comment">
+        <input type="file" id="image" accept="image/shoyu.jpg"required>
         </form>
+
+    <button type="submit" id="button">Submit</button>
+ </main>
+        </div>
 </body>
 </html>
