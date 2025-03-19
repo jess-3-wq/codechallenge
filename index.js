@@ -6,6 +6,7 @@ const ramens = [
    {id: 5, name: "Shawo Ramen", restaurant:"mdooeee", image: "https://moringa.instructure.com/courses/967/files/517797/preview", rating:4, comment:"Kitu ni tamu!"}
  ];
 
+
 //  document.addEventListener("DOMContentLoaded", () => {
 //     const ramenMenu = document.getElementById("ramen-menu")
 //     const ramenDetail = document.getElementById("ramen-detail")
@@ -14,7 +15,6 @@ const ramens = [
 //     const detailName = document.getElementById("ramen-name")
 //     const detailImage = document.getElementById("ramen-image")
 //     const detailComment = document.getElementById("ramen-comment")
-
 
 function displayRamens() {
   
